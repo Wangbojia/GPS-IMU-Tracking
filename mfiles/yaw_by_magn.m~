@@ -1,0 +1,9 @@
+
+goodx = (magn_x-xoffset)/alpha;
+goody = (magn_y-yoffset)/alpha;
+plot(ts,rad2deg (atan2(-goody,goodx)))
+title('yaw by mag without filter')
+xlabel('time')
+ylabel('yaw angle')
+hold on
+plot(ts,yaw)

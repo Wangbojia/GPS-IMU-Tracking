@@ -1,0 +1,17 @@
+package imu_msg;
+
+struct imu
+{
+    double yaw;
+    double pitch;
+    double roll;
+    double magn_x;
+    double magn_y;
+    double magn_z;    
+    double accl_x;
+    double accl_y;
+    double accl_z;
+    double gyro_x;
+    double gyro_y;
+    double gyro_z;
+}
